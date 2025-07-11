@@ -59,8 +59,8 @@ A modern, responsive web application for displaying and managing tech products w
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/smart-data-display.git
-   cd smart-data-display
+   git clone https://github.com/prashantmahawar75/Maketronics-assignment
+   cd Maketronics-assignment
    ```
 
 2. **Create a virtual environment**
@@ -167,38 +167,13 @@ All API responses follow this structure:
 ## 📁 Project Structure
 
 ```
-smart-data-display/
+Maketronics-assignment/
 ├── app.py                 # Flask backend application
 ├── index.html            # Frontend HTML (from paste.txt)
 ├── requirements.txt      # Python dependencies
-├── README.md            # This file
-├── .env                 # Environment variables (create if needed)
-├── .gitignore           # Git ignore file
-└── static/              # Static files (if needed)
-    ├── css/
-    ├── js/
-    └── images/
+
 ```
 
-## 🔧 Configuration
-
-### Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-# Flask Configuration
-FLASK_ENV=development
-FLASK_DEBUG=True
-
-# API Configuration
-API_RATE_LIMIT=100
-CACHE_TIMEOUT=3600
-
-# Scraping Configuration
-SCRAPING_DELAY=2
-MAX_PRODUCTS=50
-```
 
 ### Customization
 
@@ -207,21 +182,6 @@ MAX_PRODUCTS=50
 3. **Change Styling**: Customize CSS in the `<style>` section of `index.html`
 4. **Add New Endpoints**: Extend the Flask app with additional routes
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Guidelines
-
-- Follow PEP 8 for Python code
-- Use meaningful commit messages
-- Add tests for new features
-- Update documentation as needed
-- Ensure responsive design for frontend changes
 
 ## 🔒 Security Notes
 
@@ -291,20 +251,3 @@ python app.py
    - Check Flask-CORS configuration
    - Ensure frontend origin is allowed
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Flask community for the excellent web framework
-- BeautifulSoup4 for web scraping capabilities
-- All contributors and testers
-
-## 📞 Support
-
-For support, please open an issue on GitHub or contact [your-email@example.com](mailto:your-email@example.com).
-
----
-
-**Made with ❤️ by Maketronics**
