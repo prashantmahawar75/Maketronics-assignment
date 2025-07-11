@@ -1,21 +1,9 @@
-# 🚀 Smart Data Display - Tech Products Hub
+#  Maketronic's Smart Data Display - Tech Products Hub
 
 A modern, responsive web application for displaying and managing tech products with real-time data fetching and interactive filtering capabilities.
 
-## 📋 Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
-
-## ✨ Features
+##  Features
 
 ### Frontend Features
 - **Responsive Design**: Modern, mobile-first design with gradient backgrounds and smooth animations
@@ -33,7 +21,7 @@ A modern, responsive web application for displaying and managing tech products w
 - **Error Handling**: Comprehensive error handling and logging
 - **Health Monitoring**: Health check endpoints for system monitoring
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **HTML5** - Semantic markup
@@ -48,14 +36,14 @@ A modern, responsive web application for displaying and managing tech products w
 - **Requests** - HTTP client
 - **Flask-CORS** - Cross-origin support
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Python 3.8 or higher
 - pip (Python package manager)
 - Modern web browser
 - Internet connection (for web scraping)
 
-## 🚀 Installation
+##  Installation
 
 1. **Clone the repository**
    ```bash
@@ -80,7 +68,7 @@ A modern, responsive web application for displaying and managing tech products w
    touch .env
    ```
 
-## 🎯 Usage
+##  Usage
 
 ### Running the Application
 
@@ -101,7 +89,7 @@ A modern, responsive web application for displaying and managing tech products w
 3. **Refresh Data**: Click the refresh button to update product data
 4. **View Details**: Click "View Product" to visit the product page
 
-## 📚 API Documentation
+##  API Documentation
 
 ### Base URL
 ```
@@ -164,7 +152,7 @@ All API responses follow this structure:
 }
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Maketronics-assignment/
@@ -183,14 +171,14 @@ Maketronics-assignment/
 4. **Add New Endpoints**: Extend the Flask app with additional routes
 
 
-## 🔒 Security Notes
+##  Security Notes
 
 - **Web Scraping**: Respect robots.txt and rate limits
 - **CORS**: Configure CORS properly for production
 - **Input Validation**: Validate all user inputs
 - **Rate Limiting**: Implement rate limiting for production use
 
-## 🚀 Deployment
+##  Deployment
 
 ### Local Development
 ```bash
@@ -220,14 +208,14 @@ python app.py
    - Set up proper logging
    - Use a production database if needed
 
-## 📊 Performance
+##  Performance
 
 - **Caching**: Products are cached in memory for faster access
 - **Async Operations**: Non-blocking operations where possible
 - **Rate Limiting**: Built-in delays for web scraping
 - **Error Handling**: Graceful degradation with fallback data
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
