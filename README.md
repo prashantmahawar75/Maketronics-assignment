@@ -239,3 +239,15 @@ python app.py
    - Check Flask-CORS configuration
    - Ensure frontend origin is allowed
 
+
+**Live link**: https://prashantmahawar75.github.io/Maketronics-assignment/
+
+**Screen-Shot**: 
+
+<img width="1919" height="885" alt="image" src="https://github.com/user-attachments/assets/92f7a9b5-bdf7-4e9a-b66a-1bbd9b9869c9" />
+
+<img width="1919" height="863" alt="image" src="https://github.com/user-attachments/assets/6deeb8c2-6a14-4cab-8ac9-26c50b6eec06" />
+
+<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/ba125d84-87e0-45ac-9c1f-4f7a7e9420b7" />
+
+
